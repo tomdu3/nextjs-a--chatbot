@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --primary-color: #3714d2;
+  --secondary-color: #0e0bbb;
+  --bg-btn-color: #4646f5;
+}
+
 .App {
   text-align: center;
   background-color: #000e1e;
@@ -45,7 +51,7 @@ h1 {
 }
 
 .primaryColor {
-  color: #e02aff;
+  color: var(--primary-color);
 }
 
 .secondaryColor {
@@ -69,9 +75,9 @@ h1 {
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 1rem;
-  border: 1px solid #e02aff;
+  border: 1px solid var(--primary-color);
   outline: none;
-  background-color: #e02aff;
+  background-color: var(--primary-color);
   color: white;
   font-weight: 900;
   margin-left: 10px;
@@ -80,14 +86,14 @@ h1 {
 }
 
 .mainButton:hover {
-  background-color: #8f14d2;
+  background-color: var(--secondary-color);
 }
 
 .secondaryButton {
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 1rem;
-  border: 1px solid #e02aff;
+  border: 1px solid var(--primary-color);
   outline: none;
   background-color: transparent;
   color: white;
@@ -98,7 +104,7 @@ h1 {
 }
 
 .secondaryButton:hover {
-  background-color: rgba(184, 65, 184, 0.339);
+  background-color: var(--bg-btn-color);
 }
 
 button:disabled,
@@ -117,7 +123,7 @@ button:disabled:hover {
   height: 50px;
   border: 5px solid #fff;
   border-radius: 50%;
-  border-top-color: #e02aff;
+  border-top-color: var(--primary-color);
   animation: spin 1s ease-in-out infinite;
   -webkit-animation: spin 1s ease-in-out infinite;
 }

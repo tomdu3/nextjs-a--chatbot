@@ -24,7 +24,7 @@ export async function POST(req: Request, res: Response) {
     // Ask Dall-E to generate an image based on the prompt
     const response = await openai.images.generate({
       model: "dall-e-3",
-      prompt: prompt,
+      prompt: `${prompt} - draw this in the style of Dreamworks animation`,
       n: 1,
       size: "1024x1024",
     });
