@@ -58,7 +58,7 @@ const Chat = () => {
           {messages.length > 0
           ? messages.map(m => (
               <div key={m.id} className="chat-line">
-                <span style={{color: userColors[m.role]}}>{m.role === 'user' ? 'User: ' : '⚡️Last Codebender: '}</span>
+                <span style={{color: userColors[m.role]}}>{m.role === 'user' ? 'User: ' : '⚡️Closeted Coders AI: '}</span>
                 {m.content}
               </div>
             ))
