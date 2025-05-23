@@ -16,7 +16,7 @@ export default function Home() {
           />
           <p>
             Safe AI Chat site for neurodivergent, or introverted person who
-            likes to code, but has difficulties with social interactions.
+            likes to code, but has difficulties with social interactions. Ask me what you need help with or describe an image you wish me to create.
           </p>
         </div>
         <Chat />
