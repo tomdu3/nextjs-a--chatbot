@@ -6,7 +6,7 @@ It's a chat interface that allows you to talk with the Last Codebender. You can 
 
 This project is built using Nextjs. It utilizes the OpenAI GPT4 for chat completion and Replicate for image generation.
 
-<img src="app-demo.gif" alt="app demo" width=600>
+<img src="app-demo.gif" alt="app demo" width=600 height=400>
 
 ## Getting Started
 
